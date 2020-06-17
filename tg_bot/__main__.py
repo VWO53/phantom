@@ -31,12 +31,10 @@ PM_START_TEXT = """
 
 I am a Powerful *Group Management Bot* With Some Special Features.
 
-Maintained By This [Legend](http://telegram.dog/The_Luttappi)
+Maintained By This [Legend](userid
 
 You can find my list of available commands with /help.
  
-
-The Source Of The Bot is [Here](https://github.com/luttappi/phantom)
 
 """
 
