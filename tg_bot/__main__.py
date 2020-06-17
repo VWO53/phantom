@@ -25,7 +25,7 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 
 
-PM_START_TEXT = 
+PM_START_TEXT ="""
 
 *Hello* {},*My Name is* *{}*!
 
@@ -37,6 +37,8 @@ You can find my list of available commands with /help.
  
 
 The Source Of The Bot is [Here](https://github.com/luttappi/phantom)
+
+"""
 
 HELP_STRINGS = """
 
