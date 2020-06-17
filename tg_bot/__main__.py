@@ -25,30 +25,18 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 
 
-PM_START_TEXT = """
+PM_START_TEXT = 
 
+*Hello* {},*My Name is* *{}*!
 
-┈┈┈┈╱▔▔▔▔╲┈┈┈┈
-┈┈┈▕▕╲┊┊╱▏▏┈┈┈
-┈┈┈▕▕▂╱╲▂▏▏┈┈┈
-┈┈┈┈╲┊┊┊┊╱┈┈┈┈
-┈┈┈┈▕╲▂▂╱▏┈┈┈┈
-╱▔▔▔▔┊┊┊┊▔▔▔▔╲
-HOI    {}, MY NAME IS {} !
+I am a Powerful *Group Management Bot* With Some Special Features.
 
-I AM A GROUP MANAGER BOT MAINTAINED BY 
+Maintained By This [Legend](http://telegram.dog/The_Luttappi)
 
-[THIS LEGEND](tg://user?id={}).
+You can find my list of available commands with /help.
+ 
 
-HIT HELP FOR COMMANDS  /help
-
-I AM COMPLETELY OPEN SOURCE
-
-MY SOURCE CODE IS AVAILABLE TO YOU
-
-[HERE](https://github.com/leobrownlee/phantom)
-
-"""
+The Source Of The Bot is [Here](https://github.com/luttappi/phantom)
 
 HELP_STRINGS = """
 
