@@ -29,9 +29,11 @@ PM_START_TEXT = """
 
 *Hello* {},*My Name is* *{}*!
 
-I am a Powerful *Group Management Bot* With Some Special Features.
+I am a Powerful Group Management Bot With Some Special Features.
 
 Maintained By This [Legend](tg://user?id={})
+
+*➡️*Join:-@TG_Botz
 
 You can find my list of available commands with /help.
  
