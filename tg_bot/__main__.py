@@ -33,7 +33,7 @@ I am a Powerful Group Management Bot With Some Special Features.
 
 Maintained By This [Legend](tg://user?id={})
 
-Channel:- © @TG_Botz
+Channel:- © *@TG_Botz*
 
 You can find my list of available commands with /help.
  
