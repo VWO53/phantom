@@ -179,7 +179,7 @@ def send_start(bot, update):
     first_name = update.effective_user.first_name 
     text = PM_START_TEXT
 
-    keyboard = [[InlineKeyboardButton(text="Add Me To Group🎉", url="t.me/{}?startgroup=true".format(bot.username)]]
+    keyboard = [[InlineKeyboardButton(text="Add Me To Group🎉",url="t.me/{}?startgroup=true".format(bot.username)]]
     keyboard += [[InlineKeyboardButton(text="Connect Group📌",callback_data="main_connect"),InlineKeyboardButton(text="Help❔",callback_data="help_back")]]
     update.effective_message.reply_photo(img, PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_NAME, OWNER_ID), 
                                          reply_markup=InlineKeyboardMarkup(keyboard), disable_web_page_preview=True, parse_mode=ParseMode.MARKDOWN)
@@ -197,7 +197,7 @@ def error_callback(bot, update, error):
     except Unauthorized:
         print("no nono1")
         print(error)
-        # remove update.message.chat_id from conversation list
+        # remove update.message.chat_id from conversation list 
     except BadRequest:
         print("no nono2")
         print("BadRequest caught")
